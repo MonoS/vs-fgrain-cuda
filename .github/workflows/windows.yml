@@ -28,7 +28,7 @@ jobs:
     - name: Setup MSVC
       uses: ilammy/msvc-dev-cmd@v1
       with:
-        vsversion: 2022
+        vsversion: 2019
 
     - name: Setup Ninja
       run: pip install ninja
